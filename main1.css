@@ -1,0 +1,131 @@
+p{
+	font-family: Helvetica, sans-serif;
+	font-size: 1.5em;
+	text-align: justify;
+	background: #dbfff2;
+	margin:20px;
+	padding:20px;
+}
+p.im{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+p.atr{
+	background: #fce6f9;
+
+}
+body{
+	background: #c9ffdf;
+	font-family: Helvetica, sans-serif;
+}
+.head{
+	background:#8fffbc;
+	display: -webkit-flex;
+	-webkit-justify-content: flex-end;
+	display:flex;
+	justify-content: flex-end;
+	flex-direction: row;
+}
+.contact_button{
+  display:flex;
+  justify-content: center;
+}
+form{
+    background:#8fffbc;
+  display: -webkit-flex;
+  -webkit-justify-content: flex;
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.head li{
+  text-align:center;
+  display:flex;
+  font-family: arial;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1.05em;
+  border: #4dd684 3px solid;
+  color: #4dd684;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+   margin: 20px 10px;
+  transition: .5s;
+  border-radius: 0px
+}
+.exit{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: auto;
+}
+
+h1{
+	display: flex;
+    justify-content: center;
+}
+.buttons{
+	flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: auto;
+  font-family: 'Comfortaa', cursive;
+}
+.b1{
+	width:30%;
+	margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 2px 20px -5px grey;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 120%;
+    background-image: linear-gradient(to right, #66ed98 0%, #4db4e8 51%, #66ed98 100%);
+}
+footer{
+	text-align: center;
+}
+.b2{
+	width:97%;
+	margin:20px;
+	padding:20px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 2px 20px -5px grey;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 120%;
+    background-image: linear-gradient(to right, #66ed98 0%, #4db4e8 51%, #66ed98 100%);
+}
+.b{
+	width: 45%;
+	margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 2px 20px -5px grey;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 120%;
+    background-image: linear-gradient(to right, #66ed98 0%, #4db4e8 51%, #66ed98 100%);
+}
